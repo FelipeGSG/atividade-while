@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 1</title>
+</head>
+<body>
+  <header>
+    <h1>Atividades com while</h1>
+    <nav>
+      <a href="index.html">Atividade 1</a> |
+      <a href="index2.html">Atividade 2</a> 
+    </nav>
+  </header>
+
+  <script>
+    do{
+
+      var usuario = prompt("\nDigite o usuário")
+      var matricula = parseInt(prompt("\nDigite a matrícula"))
+      
+      if(usuario == "SENAI" && matricula == 2025999){
+        alert("Bem-vindo!")
+        break
+      }
+      alert("Usuário e/ou senha incorreto")
+    }while(true)
+  </script>
+</body>
+</html>
